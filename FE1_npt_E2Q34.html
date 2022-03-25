@@ -1,0 +1,82 @@
+<!-- HTML Text Formatting -->
+<!-- <sp> (speech) contains an individual speech in a performance text,
+     or a passage presented as such in a prose or verse text -->
+<!-- Radio buttons let a user select only one of a limited number of choices
+Checkbox let the user select one or more options of a limited number of choices -->
+<!DOCTYPE html>
+<html lang>
+    <head>
+        <meta charset="UTF-8">
+        <title>FE_Assignment_1.2.3</title>
+    </head>
+<body>
+    <small>
+        <p><b>This test is bold</b></p>
+        <p><i>This test is italic</i></p>
+        <p>This is <sub>subscript</sub> and <sup>superscript</sup></p>
+        </small>
+        <br>
+        <p>This test is normal.</p>
+        <p><em>This test is emphasized.</em></p>
+        <br>
+        <h4>HTML <small>Small</small> Formatting</h4>
+        <br>
+        <h3>HTML <mark>Marked</mark> Formatting</h3>
+        <br>
+        <p>The del elements deleted (removed) text.</p>
+        <p>My favorite color is <del>blue</del> red.</p>
+        <br>
+        <p>The ins element represent inserted (added) text.</p>
+        <p>My favorite <ins>color</ins> is red.</p>
+    
+    <!-- Question 4 -->
+    
+        <h2>Register</h2>
+    <p><i>Please <b>fill in this form</b> to create an account</i></p>
+    <form>
+        Fullname<sp>*</sp><br>
+        <input type="text" name="fullname" placeholder="Input your fullname..." required>
+        <br>
+        <br>
+        Username<sp>*</sp><br>
+        <input type="text" name="username" placeholder="Input your username..." required>
+        <br>
+        <br>
+        Password<sp>*</sp><br>
+        <input type="text" name="password" placeholder="Input your password..." required>
+        <br>
+        <br>
+        Email<sp>*</sp><br>
+        <input type="text" name="email" placeholder="Input your email..." required>
+        <br>
+        <br>
+        Telephone number<sp>*</sp><br>
+        <input type="text" name="telephone" placeholder="Input your phone number..." required>
+        <br>
+        <br>
+        Input Object:<br>
+        <input type="radio" name="object" value="Student"> Student <input type="radio" name="object" value="Teacher"> Teacher<br>
+        Favorite:<br>
+        <br>
+        <input type="checkbox" name="favorite" value="Badminton"> Badmintion <input type="checkbox" name="favorite" value="Volleyball"> Volleyball <input type="checkbox" name="favorite" value="Football"> Football
+        <br>
+        <br>
+        Address:<sp>*</sp><br>
+        <select name="Address">
+            <option value="Bắc Giang">Bắc Giang</option> 
+        </select>
+        <br>
+        <br>
+        Birthday:<sp>*</sp><br>
+        <input type="date" name="bday"required><br>
+        <br>
+        <br>
+        Your picture:<sp>*</sp><br>
+        <input type="file" name="pic" accept="image/*">
+        <br>
+        <br>
+        <input type="submit">
+    </form>
+    <hr>
+</body>
+</html>
